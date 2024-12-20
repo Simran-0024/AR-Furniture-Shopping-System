@@ -35,7 +35,7 @@
                 android:id="@+id/LoginText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Login"
+                android:text="Sign Up"
                 android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textSize="38sp"
@@ -52,7 +52,20 @@
                 android:padding="8dp"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/black"
-                android:layout_marginTop="40dp"/>
+                android:layout_marginTop="30dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/Email"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:hint="Email Id"
+
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:layout_marginTop="20dp"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -62,17 +75,30 @@
                 android:drawableLeft="@drawable/baseline_build_24"
                 android:drawablePadding="8dp"
                 android:hint="Password"
-
                 android:padding="8dp"
                 android:inputType="textPassword"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/black"
-                android:layout_marginTop="40dp"/>
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/repassword"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_build_24"
+                android:drawablePadding="8dp"
+                android:hint="Confirm Password"
+                android:padding="8dp"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:layout_marginTop="20dp"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:id="@+id/loginButton"
-                android:text="Login"
+                android:id="@+id/signupButton"
+                android:text="Sign Up"
                 android:textSize="20sp"
                 android:layout_marginTop="30dp"
                 android:textColor="@color/white"/>
@@ -82,16 +108,16 @@
 
 
 
-        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="6dp"
-        android:text="Not Registered ? Sign Up"
+        android:text="Already registered ? Login"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:gravity="center"
-        android:id="@+id/signUp"
+        android:id="@+id/Login"
         />
 
 
